@@ -16,7 +16,7 @@ class AiCodeHelperApplicationTests {
 
     @Test
     void chat() {
-        aiCodeHelper.chat("你好，我叫熏鱼");
+        aiCodeHelper.chat("你好，我叫熏鱼,我和女朋友闹矛盾了，因为她觉得我陪她的时间很短，应该怎么哄她？");
     }
 
     @Test

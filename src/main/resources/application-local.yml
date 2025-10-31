@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ai-code-helper
+
+langchain4j:
+  community:
+    dashscope:
+      chat-model:
+        model-name: qwen3-max
+        api-key: sk-97131dc4097340718f5f113bcc6a9aa8
+

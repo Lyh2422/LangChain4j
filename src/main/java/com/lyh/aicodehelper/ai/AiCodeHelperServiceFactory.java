@@ -1,5 +1,6 @@
 package com.lyh.aicodehelper.ai;
 
+import com.lyh.aicodehelper.ai.tools.InterviewQuestionTool;
 import dev.langchain4j.memory.ChatMemory;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
 import dev.langchain4j.model.chat.ChatModel;
@@ -28,6 +29,7 @@ public class AiCodeHelperServiceFactory {
                 .chatModel(qwenChatModel)
                 .chatMemory(chatMemory)
                 .contentRetriever(contentRetriever) //RAG检索增强生成
+                .tools(new InterviewQuestionTool()) //工具调用
                 .build();
 
         return aiCodeHelperService;

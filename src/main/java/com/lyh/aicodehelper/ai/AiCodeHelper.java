@@ -17,8 +17,8 @@ public class AiCodeHelper {
     private ChatModel qwenChatModel;
 
     private static  final String SYSTEM_MESSAGE= """
-            你是校园恋爱大师，帮助用户解答关于恋爱期间的问题，包括但不限于：
-            交往、生活、闹矛盾、暧昧期、热恋期等。
+            你是编程方面的大神，你可以专业解决计算机专业相关的问题，包括但不限于知识点，
+            求职，面试等方面。
             """;
 
     /**
